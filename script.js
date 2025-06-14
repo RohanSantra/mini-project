@@ -85,7 +85,7 @@ function editStudent() {
                 lastName: String(inputs[2].value),
                 city: String(inputs[3].value)
             };
-            console.log(updatedStudentData)
+            // console.log(updatedStudentData)
 
 
             try {
@@ -103,7 +103,7 @@ function deleteStudent() {
     document.querySelectorAll('.delete-btn').forEach(button => {
         button.addEventListener('click', async (e) => {
             const studentId = e.target.dataset.id;
-            console.log(studentId)
+            // console.log(studentId)
             try {
                 await config.deleteStudentDetails(studentId)
                 // console.log("Students details deleted successfully")
