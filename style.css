@@ -99,7 +99,7 @@ html {
 
 .student-details-table {
     width: 100%;
-    border-collapse:collapse;
+    border-collapse: collapse;
     margin-bottom: 1rem;
 
 }
@@ -165,12 +165,14 @@ html {
     background-color: #0056b3;
 }
 
-.save-btn{
+.save-btn {
     background-color: lime;
 }
-.save-btn:hover{
+
+.save-btn:hover {
     background-color: limegreen;
 }
+
 .delete-btn {
     background-color: #e74c3c;
 }
@@ -180,7 +182,7 @@ html {
 }
 
 .student-details-table th .active,
-.student-details-table td .active{
+.student-details-table td .active {
     border: 1px solid #111;
     background-color: white;
 }
@@ -188,7 +190,8 @@ html {
 @media (max-width:676px) {
 
     .edit-btn,
-    .delete-btn {
+    .delete-btn,
+    .save-btn {
         width: 100%;
 
     }
